@@ -26,7 +26,7 @@ const SAMPLE_CSV = `title,book_file_url
 الإيمان وتكامل الإنسان - kotobi,https://archive.org/download/kotobi_202605/الإيمان وتكامل الإنسان - kotobi.pdf
 روائع من التاريخ العثماني - kotobi,https://archive.org/download/kotobi_202605/روائع من التاريخ العثماني - kotobi.pdf`;
 
-const AI_BATCH_SIZE = 1;
+const AI_BATCH_SIZE = 25;
 const MAX_BOOKS_PER_RUN = 1000;
 const BETWEEN_BATCH_DELAY_MS = 300;
 const RETRY_DELAY_MS = 20000;
